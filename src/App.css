@@ -47,11 +47,11 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 40px;
-  color: #a757d6;
+  color: #ffffff;
 }
 
 body.dark h1 {
-  color: #df60ae;
+  color: #ffffff;
 }
 
 /* Toggle Mode Button */
@@ -97,7 +97,7 @@ body.dark .toggle-dark-mode {
 
 .todo-input input:focus {
   outline: none;
-  border-color: #df60ae;
+  border-color: #ffffff;
   box-shadow: 0 0 0 4px rgba(199, 157, 0, 0.2);
 }
 
@@ -162,7 +162,7 @@ body.dark .filters button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #bb58ae;
+  background: #df60ae;
   padding: 20px 24px;
   margin-bottom: 18px;
   border-radius: 16px;
@@ -215,7 +215,7 @@ body.dark .todo-item:hover {
 
 /* Badge */
 .badge {
-  background-color: #df60ae;
+  background-color: #ffffff;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 13px;
