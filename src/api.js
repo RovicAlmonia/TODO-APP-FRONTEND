@@ -1,4 +1,4 @@
-const BASE_URL = "https://todo-app-backend-1-j1c6.onrender.com/api/todos/"; // Use your Render backend URL
+const BASE_URL = "https://todo-app-backend-1-j1c6.onrender.com/api/todos/";
 
 export const getTodos = async () => {
   const response = await fetch(BASE_URL);
@@ -16,13 +16,13 @@ export const addTodo = async (title) => {
 
 export const updateTodo = async (id, updatedFields) => {
   const response = await fetch(`${BASE_URL}${id}/`, {
-    method: 'PATCH', 
+    method: 'PATCH',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(updatedFields),
   });
 
   if (!response.ok) {
-    const errorText = await response.text(); // Capture error response text
+    const errorText = await response.text();
     throw new Error(`Failed to update todo: ${errorText}`);
   }
   return response.json();
