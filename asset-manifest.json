@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/TODO-APP-FRONTEND/static/css/main.a85c44ee.css",
+    "main.css": "/TODO-APP-FRONTEND/static/css/main.227c7ed9.css",
     "main.js": "/TODO-APP-FRONTEND/static/js/main.8c33a315.js",
     "static/js/453.5f715be2.chunk.js": "/TODO-APP-FRONTEND/static/js/453.5f715be2.chunk.js",
+    "static/media/The-Batman-FI.jpg": "/TODO-APP-FRONTEND/static/media/The-Batman-FI.49925b9d3a9fd422edeb.jpg",
     "index.html": "/TODO-APP-FRONTEND/index.html",
-    "main.a85c44ee.css.map": "/TODO-APP-FRONTEND/static/css/main.a85c44ee.css.map",
+    "main.227c7ed9.css.map": "/TODO-APP-FRONTEND/static/css/main.227c7ed9.css.map",
     "main.8c33a315.js.map": "/TODO-APP-FRONTEND/static/js/main.8c33a315.js.map",
     "453.5f715be2.chunk.js.map": "/TODO-APP-FRONTEND/static/js/453.5f715be2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a85c44ee.css",
+    "static/css/main.227c7ed9.css",
     "static/js/main.8c33a315.js"
   ]
 }
