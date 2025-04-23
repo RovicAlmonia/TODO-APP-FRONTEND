@@ -1,4 +1,4 @@
-const BASE_URL = "https://todo-app-backend-1-j1c6.onrender.com/";
+const BASE_URL = "https://todo-backend-django-zw75.onrender.com/";
 
 export const getTodos = async () => {
   const response = await fetch(BASE_URL);
